@@ -4,6 +4,7 @@ import numpy as np
 import pandas as pd
 import datetime
 import matplotlib.pyplot as plt
+import pickle
 
 from matplotlib import style
 from sklearn import preprocessing, model_selection, svm
@@ -40,15 +41,11 @@ y = np.array(df['label'])
 
 X_train, X_test, y_train, y_test = model_selection.train_test_split(X, y, test_size=0.2)
 
-#clf = svm.SVR()
-clf=LinearRegression(n_jobs=-1)
-clf.fit(X_train, y_train)
 
-confidence = clf.score(X_test, y_test)
-print(confidence)
+pickle_in = open('linearregression.pickle', 'rb')
+clf = pickle.load(pickle_in)
 
 forecast_set = clf.predict(X_lately)
-print(forecast_set, confidence, forecast_out)
 
 df['Forecast'] = np.nan
 

@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68ab9ab7-cda6-4a3d-857d-3b80f8796ee9" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Regression/Regression.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Regression/BestFitSlope.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Regression/Regression.py" afterPath="$PROJECT_DIR$/Regression/Regression.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,18 +16,31 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Machine_Learning$Flat_Clustering.coverage" NAME="Flat Clustering Coverage Results" MODIFIED="1520084017540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Clustering" />
     <SUITE FILE_PATH="coverage/Machine_Learning$Hierarchical_Clustering.coverage" NAME="Hierarchical Clustering Coverage Results" MODIFIED="1520085812299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Clustering" />
-    <SUITE FILE_PATH="coverage/Machine_Learning$Regression.coverage" NAME="Regression Coverage Results" MODIFIED="1520090795528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
+    <SUITE FILE_PATH="coverage/Machine_Learning$Regression.coverage" NAME="Regression Coverage Results" MODIFIED="1520091890439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
     <SUITE FILE_PATH="coverage/Machine_Learning$FeaturesAndLabels.coverage" NAME="FeaturesAndLabels Coverage Results" MODIFIED="1520087529903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Regression" />
+    <SUITE FILE_PATH="coverage/Machine_Learning$BestFitSlope.coverage" NAME="BestFitSlope Coverage Results" MODIFIED="1520093579094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Regression" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Regression.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Regression.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Regression/Regression.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+            <state relative-caret-position="414">
+              <caret line="68" column="18" lean-forward="false" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="18" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BestFitSlope.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Regression/BestFitSlope.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+              <folding>
+                <element signature="e#1#28#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -51,7 +65,9 @@
         <option value="$PROJECT_DIR$/Clustering/Hierarchical Clustering.py" />
         <option value="$PROJECT_DIR$/MachineLearningSentdex/Regression.py" />
         <option value="$PROJECT_DIR$/Regression/FeaturesAndLabels.py" />
+        <option value="$PROJECT_DIR$/PicklingAndScaling.py" />
         <option value="$PROJECT_DIR$/Regression/Regression.py" />
+        <option value="$PROJECT_DIR$/Regression/BestFitSlope.py" />
       </list>
     </option>
   </component>
@@ -131,7 +147,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Regression">
+  <component name="RunManager" selected="Python.BestFitSlope">
+    <configuration name="BestFitSlope" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Regression" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Machine-Learning" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Regression/BestFitSlope.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="FeaturesAndLabels" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -208,18 +243,20 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.Flat Clustering" />
       <item index="1" class="java.lang.String" itemvalue="Python.Hierarchical Clustering" />
       <item index="2" class="java.lang.String" itemvalue="Python.Regression" />
       <item index="3" class="java.lang.String" itemvalue="Python.FeaturesAndLabels" />
+      <item index="4" class="java.lang.String" itemvalue="Python.BestFitSlope" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.Regression" />
-        <item index="1" class="java.lang.String" itemvalue="Python.FeaturesAndLabels" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Hierarchical Clustering" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Flat Clustering" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.BestFitSlope" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Regression" />
+        <item index="2" class="java.lang.String" itemvalue="Python.FeaturesAndLabels" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Hierarchical Clustering" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Flat Clustering" />
       </list>
     </recent_temporary>
   </component>
@@ -321,12 +358,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/PicklingAndScaling.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Regression/Regression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+        <state relative-caret-position="414">
+          <caret line="68" column="18" lean-forward="false" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="18" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Regression/BestFitSlope.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+          <folding>
+            <element signature="e#1#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
