@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68ab9ab7-cda6-4a3d-857d-3b80f8796ee9" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/SupportVectorMachines/SVC.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SupportVectorMachines/SVM.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SupportVectorMachines/breast-cancer-wisconsin.data" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/KNearestNeighbors/KNNClassifier.py" afterPath="$PROJECT_DIR$/KNearestNeighbors/KNNClassifier.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,9 +18,10 @@
     <SUITE FILE_PATH="coverage/Machine_Learning$Flat_Clustering.coverage" NAME="Flat Clustering Coverage Results" MODIFIED="1520084017540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Clustering" />
     <SUITE FILE_PATH="coverage/Machine_Learning$Hierarchical_Clustering.coverage" NAME="Hierarchical Clustering Coverage Results" MODIFIED="1520085812299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Clustering" />
     <SUITE FILE_PATH="coverage/Machine_Learning$ScikitLearn.coverage" NAME="ScikitLearn Coverage Results" MODIFIED="1520246857494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/KNearestNeighbors" />
-    <SUITE FILE_PATH="coverage/Machine_Learning$KNNClassifier.coverage" NAME="KNNClassifier Coverage Results" MODIFIED="1520261837333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/KNearestNeighbors" />
+    <SUITE FILE_PATH="coverage/Machine_Learning$KNNClassifier.coverage" NAME="KNNClassifier Coverage Results" MODIFIED="1520327180917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/KNearestNeighbors" />
     <SUITE FILE_PATH="coverage/Machine_Learning$Regression.coverage" NAME="Regression Coverage Results" MODIFIED="1520091890439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
     <SUITE FILE_PATH="coverage/Machine_Learning$FeaturesAndLabels.coverage" NAME="FeaturesAndLabels Coverage Results" MODIFIED="1520087529903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Regression" />
+    <SUITE FILE_PATH="coverage/Machine_Learning$SVC.coverage" NAME="SVC Coverage Results" MODIFIED="1520328078536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SupportVectorMachines" />
     <SUITE FILE_PATH="coverage/Machine_Learning$BestFitSlope.coverage" NAME="BestFitSlope Coverage Results" MODIFIED="1520244025822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Regression" />
   </component>
   <component name="FileEditorManager">
@@ -26,33 +29,35 @@
       <file leaf-file-name="ScikitLearn.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/KNearestNeighbors/ScikitLearn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding>
-                <element signature="e#1#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KNNClassifier.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/KNearestNeighbors/KNNClassifier.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="53" column="25" lean-forward="false" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
-              <folding>
-                <element signature="e#1#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="breast-cancer-wisconsin.data" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/KNearestNeighbors/breast-cancer-wisconsin.data">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="27" />
+            <state relative-caret-position="36">
+              <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SVC.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SupportVectorMachines/SVC.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+              <folding>
+                <element signature="e#1#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SVM.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SupportVectorMachines/SVM.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="533">
+              <caret line="150" column="0" lean-forward="true" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
+              <folding>
+                <element signature="e#1#32#0" expanded="true" />
+                <element signature="e#4414#4494#0" expanded="false" />
+                <element signature="e#4522#4601#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -87,6 +92,8 @@
         <option value="$PROJECT_DIR$/KNearestNeighbors/breast-cancer-wisconsin.data" />
         <option value="$PROJECT_DIR$/KNearestNeighbors/ScikitLearn.py" />
         <option value="$PROJECT_DIR$/KNearestNeighbors/KNNClassifier.py" />
+        <option value="$PROJECT_DIR$/SupportVectorMachines/SVC.py" />
+        <option value="$PROJECT_DIR$/SupportVectorMachines/SVM.py" />
       </list>
     </option>
   </component>
@@ -140,6 +147,11 @@
               <item name="Machine-Learning" type="462c0819:PsiDirectoryNode" />
               <item name="Regression" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Machine-Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Machine-Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="SupportVectorMachines" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -154,6 +166,9 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/SupportVectorMachines" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Regression" />
       <recent name="$PROJECT_DIR$" />
@@ -171,7 +186,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.KNNClassifier">
+  <component name="RunManager" selected="Python.SVC">
     <configuration name="BestFitSlope" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -186,25 +201,6 @@
       <module name="Machine-Learning" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Regression/BestFitSlope.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="FeaturesAndLabels" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Regression" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Machine-Learning" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Regression/Regression.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -248,6 +244,25 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="SVC" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SupportVectorMachines" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Machine-Learning" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SupportVectorMachines/SVC.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="ScikitLearn" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -269,18 +284,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.Regression" />
-      <item index="1" class="java.lang.String" itemvalue="Python.FeaturesAndLabels" />
-      <item index="2" class="java.lang.String" itemvalue="Python.BestFitSlope" />
-      <item index="3" class="java.lang.String" itemvalue="Python.ScikitLearn" />
-      <item index="4" class="java.lang.String" itemvalue="Python.KNNClassifier" />
+      <item index="1" class="java.lang.String" itemvalue="Python.BestFitSlope" />
+      <item index="2" class="java.lang.String" itemvalue="Python.ScikitLearn" />
+      <item index="3" class="java.lang.String" itemvalue="Python.KNNClassifier" />
+      <item index="4" class="java.lang.String" itemvalue="Python.SVC" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.KNNClassifier" />
-        <item index="1" class="java.lang.String" itemvalue="Python.ScikitLearn" />
-        <item index="2" class="java.lang.String" itemvalue="Python.BestFitSlope" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Regression" />
-        <item index="4" class="java.lang.String" itemvalue="Python.FeaturesAndLabels" />
+        <item index="0" class="java.lang.String" itemvalue="Python.SVC" />
+        <item index="1" class="java.lang.String" itemvalue="Python.KNNClassifier" />
+        <item index="2" class="java.lang.String" itemvalue="Python.ScikitLearn" />
+        <item index="3" class="java.lang.String" itemvalue="Python.BestFitSlope" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Regression" />
       </list>
     </recent_temporary>
   </component>
@@ -315,10 +330,10 @@
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.50340134" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286334" sideWeight="0.49659863" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32792208" sideWeight="0.49659863" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35300794" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -358,9 +373,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="e#1#19#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -377,7 +390,7 @@
         <state relative-caret-position="180">
           <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
           <folding>
-            <element signature="e#1#19#0" expanded="true" />
+            <element signature="e#1#19#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -386,9 +399,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#1#19#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -458,22 +469,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/KNearestNeighbors/KNNClassifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="52" column="32" lean-forward="false" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
+          <folding>
+            <element signature="e#1#19#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/KNearestNeighbors/ScikitLearn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="36">
+          <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SupportVectorMachines/breast-cancer-wisconsin.data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SupportVectorMachines/SVC.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
           <folding>
             <element signature="e#1#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/KNearestNeighbors/KNNClassifier.py">
+    <entry file="file://$PROJECT_DIR$/SupportVectorMachines/SVM.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="53" column="25" lean-forward="false" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
+        <state relative-caret-position="533">
+          <caret line="150" column="0" lean-forward="true" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
           <folding>
-            <element signature="e#1#19#0" expanded="true" />
+            <element signature="e#1#32#0" expanded="true" />
+            <element signature="e#4414#4494#0" expanded="false" />
+            <element signature="e#4522#4601#0" expanded="false" />
           </folding>
         </state>
       </provider>
