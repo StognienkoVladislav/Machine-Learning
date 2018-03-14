@@ -4,7 +4,11 @@ import hashlib
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+from pandas.plotting import scatter_matrix
 from six.moves import urllib
+from sklearn.preprocessing import Imputer
+from sklearn.preprocessing import LabelEncoder
+from sklearn.preprocessing import OneHotEncoder
 from sklearn.model_selection import train_test_split
 from sklearn.model_selection import StratifiedShuffleSplit
 
@@ -65,3 +69,56 @@ for set_ in (strat_train_set, strat_test_set):
     set_.drop("income_cat", axis=1, inplace=True)
 
 print(strat_test_set.describe())
+
+housing = strat_train_set.copy()
+housing.plot(kind="scatter", x="longitude", y="latitude", alpha=0.4,
+             s=housing["population"]/100, label="population", figsize=(10, 7),
+             c="median_house_value", cmap=plt.get_cmap("jet"), colorbar=True)
+plt.legend()
+
+corr_matrix = housing.corr()
+corr_matrix["median_house_value"].sort_values(ascending=False)
+
+attributes = ["median_house_value", "median_income", "total_rooms",
+              "housing_median_age"]
+scatter_matrix(housing[attributes], figsize=(12, 8))
+
+housing.plot(kind="scatter", x="median_income", y="median_house_value", alpha=0.1)
+plt.show()
+
+# new columns to dataSet
+housing["rooms_per_household"] = housing["total_rooms"]/housing["households"]
+housing["bedrooms_per_room"] = housing["total_bedrooms"]/housing["total_rooms"]
+housing["population_per_household"] = housing["population"]/housing["households"]
+
+corr_matrix = housing.corr()
+print(corr_matrix["median_house_value"].sort_values(ascending=False))
+
+
+housing = strat_train_set.drop("median_house_value", axis=1)
+housing_labels = strat_train_set["median_house_value"].copy()
+
+# filter
+imputer = Imputer(strategy="median")
+
+housing_num = housing.drop("ocean_proximity", axis=1)
+imputer.fit(housing_num)
+
+print(imputer.statistics_)
+print(housing_num.median().values)
+
+X = imputer.transform(housing_num)
+housing_tr = pd.DataFrame(X, columns=housing_num.columns)
+
+# Handling Text and Categorical Attributes
+encoder = LabelEncoder()
+housing_cat = housing["ocean_proximity"]
+housing_cat_encoded = encoder.fit_transform(housing_cat)
+print(housing_cat_encoded)
+print(encoder.classes_)
+
+# OneHotEncoder
+encoder = OneHotEncoder()
+housing_cat_1hot = encoder.fit_transform(housing_cat_encoded.reshape(-1, 1))
+print(housing_cat_1hot.toarray())
+
