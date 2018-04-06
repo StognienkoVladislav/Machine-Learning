@@ -55,13 +55,20 @@ def draw_boundary(classifier):
     z = (np.dot(classifier.coef_, v) + classifier.intercept_).reshape(100, 100)
     plt.contour(dx, dy, z, levels=[0], colors=['r'])
 
+# fit with c = 0.01
+clf = LogisticRegression(C=0.01).fit(X_train, y_train)
+print("Train Accuracy for C=0.01: ", clf.score(X_train, y_train))
+print("Test Accuracy for C=0.01: ", clf.score(X_test, y_test))
+draw_plot()
+plt.title("Fitting with C=0.01")
+draw_boundary(clf)
+plt.legend()
 
 # fit with c = 1
 clf = LogisticRegression(C=1).fit(X_train, y_train)
 print("Train Accuracy for C=1: ", clf.score(X_train, y_train))
 print("Test Accuracy for C=1: ", clf.score(X_test, y_test))
 draw_plot()
-
 plt.title("Fitting with C=1")
 draw_boundary(clf)
 plt.legend()
